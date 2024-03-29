@@ -1,0 +1,91 @@
+/* Basic reset for margins, padding, and font settings */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Dark blue background with white text color for the whole page */
+  body {
+    background-color: #08162c;
+    color: #FFFFFF;
+    line-height: 1.6;
+  }
+  .main-nav {
+    text-align: center;
+  }
+  /* Styling for the main navigation links */
+  .main-nav a {
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 15px;
+  }
+  
+  .main-nav a:hover {
+    color: #4C9AFF;
+  }
+  
+  /* Header image styling, set to display as block to center it */
+  .header-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 222px;
+    object-fit: cover
+  }
+  
+  /* Content section styling for a little padding */
+  .content {
+    padding: 20px;
+  }
+  
+  /* Definition section styling for emphasis */
+  .definition p {
+    text-align: center;
+    margin-bottom: 20px; /* Adds bottom margin for spacing */
+  }
+  
+  .RBP-txt {
+    text-align: left;
+  }
+  
+  /* Recent posts styling */
+  .recent-post-1, .recent-post-2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Targeting specific classed images within recent posts for alignment */
+  .zerotrust-img, .quantum-img {
+    max-width: 100%; /* Makes image responsive */
+    height: 210px;
+    display: block; /* Aligns image to the left by default */
+    margin: 0 auto 10px; /* Adds some space below the image */
+  }
+  
+  /* Ensuring the first image in each post aligns as desired */
+  .recent-post-1 img:first-of-type, .recent-post-2 img:first-of-type {
+    margin-left: 0; /* Aligns the first image to the left explicitly */
+  }
+  
+  /* Footer styling */
+  .footer {
+    text-align: right;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+  
+  /* Style links within content for visibility and aesthetics */
+  a {
+    color: #4C9AFF; /* Light blue for readability */
+    text-decoration: none; /* Removes underline */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Adds underline on hover for emphasis */
+  }
+  
+  /* Ensure paragraphs have some bottom margin for better readability */
+  p {
+    margin-bottom: 10px;
+  }
